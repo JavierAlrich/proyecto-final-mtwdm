@@ -3,10 +3,10 @@ import { HttpClient } from '@angular/common/http';
 import { ProductModel, Api_R } from '../models/models';
 import { Observable } from 'rxjs';
 
-const TODOS_PRODUCTOS = 'http://localhost:3000/products';
-const URL_CATEGORIA = 'http://localhost:3000/products/';
-const URL_DESCRIPCION = 'http://localhost:3000/descripcion/';
-const URL_CODIGO = 'http://localhost:3000/codigo/';
+const TODOS_PRODUCTOS = 'http://192.168.44.129:3000/products';
+const URL_CATEGORIA = 'http://192.168.44.129:3000/products/';
+const URL_DESCRIPCION = 'http://192.168.44.129:3000/descripcion/';
+const URL_CODIGO = 'http://192.168.44.129:3000/codigo/';
 
 
 @Injectable({
